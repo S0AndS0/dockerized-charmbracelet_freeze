@@ -12,15 +12,15 @@ Unaffiliated docker image for CharmBracelet Freeze
 ---
 
 
-- [:arrow_up: Top of Document][heading__top]
-- [:building_construction: Requirements][heading__requirements]
+- [&#x2B06; Top of Document][heading__top]
+- [&#x1F3D7; Requirements][heading__requirements]
 - [&#x1F5D2; Notes][heading__notes]
   - [Interactive local testing tip/trick][heading__interactive_local_testing_tiptrick]
-- [:chart_with_upwards_trend: Contributing][heading__contributing]
-  - [:trident: Forking][heading__forking]
-  - [:currency_exchange: Sponsor][heading__sponsor]
-- [:card_index: Attribution][heading__attribution]
-- [:balance_scale: Licensing][heading__license]
+- [&#x1F4C8; Contributing][heading__contributing]
+  - [&#x1F531; Forking][heading__forking]
+  - [&#x1F4B1; Sponsor][heading__sponsor]
+- [&#x1F4C7; Attribution][heading__attribution]
+- [&#x2696; Licensing][heading__license]
 
 
 ---
@@ -52,6 +52,8 @@ Requests that add features or fix bugs are certainly welcomed.
 
 ### Interactive local testing tip/trick
 [heading__interactive_local_testing_tiptrick]: #interactive-local-testing-tiptrick
+
+So far the flowing sequence seems the swiftest way to test local changes;
 
 ```bash
 _image_sha="$(docker build -t "S0AndS0/dockerized-charmbracelet_freeze" "${PWD:-.}" | awk -F: '{ print $2; exit 0; }')"

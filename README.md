@@ -170,6 +170,7 @@ ______
   "&#x1F4C7; Resources that where helpful in building this project so far."
 
 
+- [Docker Docs -- Update Docker Hub description with GitHub Actions](https://docs.docker.com/build/ci/github-actions/update-dockerhub-desc/)
 - [Docker Hub -- Golang](https://hub.docker.com/_/golang/tags)
 - [GitHub -- `charmbracelet/freeze`](https://github.com/charmbracelet/freeze)
 - [GitHub -- `docker/metadata-action`](https://github.com/docker/metadata-action)

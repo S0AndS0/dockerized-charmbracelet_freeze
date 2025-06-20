@@ -178,6 +178,7 @@ ______
 - [GitHub -- `charmbracelet/freeze`](https://github.com/charmbracelet/freeze)
 - [GitHub -- `docker/metadata-action`](https://github.com/docker/metadata-action)
 - [GitHub -- `github-utilities/make-readme`](https://github.com/github-utilities/make-readme)
+- [GitHub -- `peter-evans/dockerhub-description` Issue `32` -- ENOENT: no such file or directory, open './README.md'](https://github.com/peter-evans/dockerhub-description/issues/32)
 - [GitHub Marketplace -- `actions/build-and-push-docker-images`](https://github.com/marketplace/actions/build-and-push-docker-images)
 - [Stack Overflow -- Trigger GitHub Action only on new tags?](https://stackoverflow.com/questions/61891328/trigger-github-action-only-on-new-tags)
 

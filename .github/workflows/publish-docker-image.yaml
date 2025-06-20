@@ -42,8 +42,8 @@ jobs:
 
       - name: Checkout source for repo description update
         uses: actions/checkout@v4
-      - name: 'Explicitly fetch tags because actions/checkout issues: 1467 and 1471'
-        run: git fetch --prune --unshallow --tags
+      # - name: 'Explicitly fetch tags because actions/checkout issues: 1467 and 1471'
+      #   run: git fetch --prune --unshallow --tags
 
       - name: Update repo description
         uses: peter-evans/dockerhub-description@e98e4d1628a5f3be2be7c231e50981aee98723ae # v4.0.0

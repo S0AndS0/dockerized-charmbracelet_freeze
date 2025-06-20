@@ -69,6 +69,9 @@ docker run -it --entrypoint /bin/bash "${_image_sha}"
 2. [Docker account center → Personal access tokens](https://app.docker.com/settings/personal-access-tokens)
    > Click "Generate new token", set whatever "Description" makes sense such as
    > "GHA Publish", then yank the generated token to your system clipboard
+   >
+   > And, if using [GHA `peter-evans/dockerhub-description`](https://github.com/peter-evans/dockerhub-description/)
+   > then scroll down to "Scopes" and ensure "Read, Write, Delete" is selected
 3. [Secrits and veriables → Actions → Secrets](https://github.com/S0AndS0/dockerized-charmbracelet_freeze/settings/secrets/actions)
    > Click "New repository secret", then under "Name" input `DOCKERHUB_TOKEN`
    > and under value put your Docker Hub Personal access token

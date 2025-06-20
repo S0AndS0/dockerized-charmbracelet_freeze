@@ -72,6 +72,9 @@ docker run -it --entrypoint /bin/bash "${_image_sha}"
 3. [Secrits and veriables → Actions → Secrets](https://github.com/S0AndS0/dockerized-charmbracelet_freeze/settings/secrets/actions)
    > Click "New repository secret", then under "Name" input `DOCKERHUB_TOKEN`
    > and under value put your Docker Hub Personal access token
+4. `https://hub.docker.com/repository/docker/<NAME>/dockerized-charmbracelet_freeze/settings`
+   > Scroll to "Tag mutability settings" and ensure "All tags are mutable" is
+   > selected, because otherwise `latest` will refuse to update `:-|`
 
 
 ______
